@@ -388,9 +388,18 @@ The box model has the following rules:
 
 ### What is the CSS `display` property and can you give a few examples of its use?
 
-* `none`, `block`, `inline`, `inline-block`, `table`, `table-row`, `table-cell`, `list-item`.
+* `none`, `block`, `inline`, `inline-block`, `flex`, `gird`, `table`, `table-row`, `table-cell`, `list-item`.
 
-TODO
+| `display` | Description |
+|:--- | :--- |
+| `none` | Does not display an element (the elementv no longer affects the layout of the document). All child element are also no longer displayed. The document is rendered as if the element did not exist in the document tree |
+| `block` | The element consumes the whole line in the block direction (which is usually horizontal) |
+| `inline` | Elements can be laid out beside each other |
+| `inline-block` | Similar to `inline`, but allows some `block` properties like setting `width` and `height` |
+| `table` | Behaves like the `<table>` element |
+| `table-row` | Behaves like the `<tr>` element |
+| `table-cell` | Behaves like the `<td>` element |
+| `list-item` | Behaves like a `<li>` element which allows it to define `list-style-type` and `list-style-position` |
 
 [[↑] Back to top](#css-questions)
 
